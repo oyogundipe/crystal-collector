@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/Assets/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/Assets/main.css"/>
     <script src="/Assets/main.js"></script>
 </head>
 <body>
@@ -14,16 +14,27 @@
 <!-- header for game -->
 <h1>Crystal Collector</h1>
 <!-- text box with instructions -->
-<div id="instructions"></div>
+<div id="instructions">
+    <p>
+    You will be given a random number at the start of the game.<br><br>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score. <br><br> You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.<br><br> The value of each crystal is hidden from you until you click on it.<br><br> Each time the game starts, the value of each crystal changes.
+</p>
+</div>
 <!-- random number to generate -->
-<div id="randomNum"></div>
+<div id="randomNum"><span id="randomNumber"></span></div>
 <!-- wins and losses on the side -->
-<div id="winsnloss"></div>
+<div id="winsnloss">
+<span id="wins"></span>
+<span id="losses"></span>
+</div>
 <!-- crystals to click -->
-<div id="crystals"></div>
+<div id="crystals">
+    <img src="Assets/Images/redcrystal.jpg" id="redcrystal" class="crystal">
+    <img src="Assets/Images/bluecrystal.jpg" id="bluecrystal" class="crystal">
+    <img src="Assets/Images/yellowcrystal.jpg" id="yellowcrystal" class="crystal">
+    <img src="Assets/Images/purplecrystal.jpg" id="purplecrystal" class="crystal">
+</div>
 <!-- box showing total score -->
- <div id ="totalScore"></div>   
- 
+ <div id ="totalScore"><span id="currentScore"></span></div>   
  </div>
 </body>
 </html>

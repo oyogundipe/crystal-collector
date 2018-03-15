@@ -18,6 +18,22 @@ h1 {
         line-height: 20px;
     }
 
+h2 {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 14px;
+    font-style: bold;
+    font-variant: normal;
+    line-height: 20px;
+}
+
+h3 {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 18px;
+    font-style: bold;
+    font-variant: normal;
+    line-height: 20px;
+}
+
 a:link {
         color: #644367;
     }
@@ -31,21 +47,13 @@ a:active {
         color: #644367;
     }
 
-.header {
-    background-color: #C0C0C0;
-    width: 100%;
-    padding: 22px;
-    text-align: left;
-    letter-spacing: 3px;
-    }
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     }
 
-.instructions {
+#instructions {
     width: 200px;
     padding: 10px;
     border: 1px solid gray;
@@ -54,26 +62,26 @@ a:active {
     margin: 0; 
     }
 
-.randomNum {
+#randomNum {
     width: 200px;
     float: left;
     border: 1px solid gray;
     background-color: #CBC6CF;
 }
-.winsnloss {
+#winsnloss {
     width: 200px;
     float: right;
     border: 1px solid gray;
     background-color: #CBC6CF;
 
 }
-.crystals {
-     width: 3500px;
+#crystals {
+     width: 900px;
      border: 1px solid gray;
     background-color: #CBC6CF;
     }
    
-.totalScore {
+#totalScore {
     width: 200px;
     border: 1px solid gray;
     background-color: aliceblue;
