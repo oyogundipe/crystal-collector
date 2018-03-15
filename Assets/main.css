@@ -1,0 +1,80 @@
+body { 
+    background-image: url(Assets/Images/bg.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 15px;
+    }
+    
+h1 {
+        font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+        font-size: 18px;
+        font-style: bold;
+        font-variant: normal;
+        line-height: 20px;
+    }
+
+a:link {
+        color: #644367;
+    }
+a:visited {
+        color: #3F1445;
+    }
+ a:hover {
+        color: #866D89;
+    }
+a:active {
+        color: #644367;
+    }
+
+.header {
+    background-color: #C0C0C0;
+    width: 100%;
+    padding: 22px;
+    text-align: left;
+    letter-spacing: 3px;
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+.instructions {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #CBC6CF;
+    position: absolute;
+    margin: 0; 
+    }
+
+.randomNum {
+    width: 200px;
+    float: left;
+    border: 1px solid gray;
+    background-color: #CBC6CF;
+}
+.winsnloss {
+    width: 200px;
+    float: right;
+    border: 1px solid gray;
+    background-color: #CBC6CF;
+
+}
+.crystals {
+     width: 3500px;
+     border: 1px solid gray;
+    background-color: #CBC6CF;
+    }
+   
+.totalScore {
+    width: 200px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    }
